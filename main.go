@@ -2,13 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	""
-	""
-
-	""
-	""
-	""
 )
 
 func main() {
@@ -25,6 +18,6 @@ func main() {
 	routes.SetupRoutes(app)
 
 	// Start and run the server
-	app.Run(":5000")
+	app.Run(":4000")
 
 }
