@@ -1,2 +1,2 @@
 # game
-a game made in Go
+A private server made in go
