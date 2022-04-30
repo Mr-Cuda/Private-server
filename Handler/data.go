@@ -6,7 +6,7 @@ import (
 
 func data() {
 	app := fiber.New()
-	client := database.Connect("", "mongodb://localhost:27017")
+	client := database.Connect("", "mongodb://localhost:4000")
 	defer database.Disconnect(client) // Disconnecting once the main finished execution
 	routes.RegisterRoutes(app)
 
