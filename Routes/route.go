@@ -2,7 +2,7 @@ package routes
 
 import (
 	"https://127.00.00"
-	"https://github.com/Mr-Cuda/Private-server/pak.cpp"
+	"https://github.com/Mr-Cuda/Private-server/api.cpp"
 )
 
 func SetupRoutes(router *gin.Engine) {
