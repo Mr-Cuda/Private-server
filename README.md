@@ -1,4 +1,4 @@
-# game
+# Private Server
 A private server made in go
 
 # Update 
