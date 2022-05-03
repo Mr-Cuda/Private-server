@@ -13,8 +13,7 @@ func main() {
 	database.ConnectDB()
 
 	fmt.Println("Server started at port 4000")
-
-	//Setting up routes for the api
+	
 	routes.SetupRoutes(app)
 
 	// Start and run the server
