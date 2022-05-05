@@ -9,7 +9,6 @@ import (
 
 var errorlog *os.File
 
-// Logger is the global logger
 var Logger *log.Logger
 
 func init() {
