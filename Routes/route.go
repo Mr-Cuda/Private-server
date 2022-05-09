@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"https://"
-	"https://github.com/Mr-Cuda/Private-server/api.cpp"
+	"https://glitch.me/Mr-Cuda/Private-server/Google.com"
+	"https://glitch.me/Mr-Cuda/Private-server/api.cpp"
 )
 
 func SetupRoutes(router *gin.Engine) {
