@@ -13,4 +13,4 @@ Update 0.0.2
 
 Update 0.0.3
 
-- finaly added sum.go
+- finaly added go.sum
