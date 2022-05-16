@@ -10,3 +10,7 @@ Update 0.0.1
 Update 0.0.2
 
 - added cool stuff
+
+Update 0.0.3
+
+- finaly added sum.go
