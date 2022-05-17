@@ -27,7 +27,7 @@ type Object struct {
 
 func main() {
 	GenerateHTML()
-	input, err := ioutil.ReadFile("./site/index.html")
+	input, err := ioutil.ReadFile("./Site/index.html")
 	if err != nil {
 		panic(err)
 	}
@@ -54,21 +54,21 @@ func main() {
 
 func makeSiteStruct(objs []Object) {
 	for _, obj := range objs {
-		folder := fmt.Sprintf("site/%s", obj.Slug)
+		folder := fmt.Sprintf("Site/%s", obj.Slug)
 		err := os.Mkdir(folder, 0755)
 		if err != nil {
 			log.Println(err)
 		}
 
-		t := template.Must(template.ParseFiles("site/cat-tmpl.html"))
+		t := template.Must(template.ParseFiles("Site/cat-tmpl.html"))
 		f, _ := os.Create(fmt.Sprintf("%s/index.html", folder))
 		t.Execute(f, obj)
 	}
 }
 
 func makeSitemap(objs []Object) {
-	t := template.Must(template.ParseFiles("tmpl/sitemap-tmpl.xml"))
-	f, _ := os.Create("site/sitemap.xml")
+	t := template.Must(template.ParseFiles("Site/sitemap-tmpl.xml"))
+	f, _ := os.Create("Site/sitemap.xml")
 	t.Execute(f, objs)
 }
 
@@ -110,5 +110,5 @@ func changeLinksInIndex(html string, query *goquery.Document) {
 		}
 	})
 
-	os.WriteFile("./site/index.html", []byte(html), 0644)
+	os.WriteFile("./Site/index.html", []byte(html), 0644)
 }
