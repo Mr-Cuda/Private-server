@@ -15,7 +15,7 @@ type ApiError struct {
 type ErrorType string
 
 const (
-	ErrorNone           ErrorType = ""
+	ErrorNone           ErrorType = "error"
 	ErrorTimeout        ErrorType = "timeout"
 	ErrorCanceled       ErrorType = "canceled"
 	ErrorExec           ErrorType = "execution"
