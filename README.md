@@ -24,3 +24,11 @@ A private server made in go
 - added auths
 
 - small changes to go.sum
+
+# Update 0.0.5
+
+- added test
+
+- small changes to logger.go
+
+- added a server
