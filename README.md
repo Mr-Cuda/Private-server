@@ -32,3 +32,5 @@ A private server made in go
 - small changes to logger.go
 
 - added a server
+
+- added variables
