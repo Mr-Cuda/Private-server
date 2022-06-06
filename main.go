@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt" // Soon...
+	"fmt"
 	"Handler"
 	"Routes"
-	"Utils" // Soon...
+	"Utils"
 )
 
 func main() {
