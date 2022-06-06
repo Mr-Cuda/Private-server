@@ -3,7 +3,8 @@ package logger
 import (
 	"log"
 	"os"
-
+	
+  "https://logger.go/9090"
   "https://github.com/Mr-Cuda/Private-Sever/Utils/logger.go"
 )
 
