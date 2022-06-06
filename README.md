@@ -15,7 +15,7 @@ Update 0.0.3
 
 - finaly added go.sum
 
-# Update 0.0.4
+Update 0.0.4
 
 - added the site (still under development)
 
