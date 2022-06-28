@@ -1,4 +1,4 @@
-package routes
+package route
 
 import (
 	"https://glitch.me/Mr-Cuda/Private-server/Google.com"
